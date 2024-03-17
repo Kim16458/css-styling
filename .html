@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>CSS STYLING</title>
+    <style>
+        p{
+            font-size: 16px;
+            margin: 20px;
+        }
+
+         @media screen and (max-width: 600px) {
+                 
+              p{
+                font-size: 14px;
+              }
+
+        }
+
+        @media screen and (min-width: 901px) {
+            p{
+                font-size: 20px;
+            }
+            
+        }
+
+        @media screen and (min-width: 601px) and (max-width: 900px) {
+            p{
+                font-size: 18px;
+            }
+            
+        }
+        header{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: black;
+            color: antiquewhite;
+            padding: 30px;
+
+        }
+        ul {
+            list-style-type: disc;
+            padding: 30px;
+        }
+        li {
+            border: 1px black;
+            padding: 10px;
+            margin: 5px;
+            font-size: 30px;
+        }
+        h2 {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: black;
+            color: antiquewhite;
+            padding: 30px;
+        }
+
+
+
+    </style>
+    <body>
+
+        <header>
+            <h1>KIRIMI OCHOLA</h1>
+        </header>
+
+        <h2>Introduction</h2>
+        <p style="margin: 10px; background-color: white; font-family: Arial; color: blue;">
+            Welcome to my website. My name is Kirimi Ochola, a student undertaking the PLP course. Under the guidance of my instructors I have designed a website that aims to give its users a smooth and efficient experience thats also visually pleasing. All this based on CSS styling. I hope you have an enjoyable experience.
+           </p>
+        
+        <h2>SKILLS</h2>
+        <ul>
+            <li>software development</li>
+            <li>python</li>
+            <li>SQL</li>
+            <li>enterprenuership</li>
+            <li>dart</li>
+
+        </ul>
+
+        <h2>CONTACT INFO</h2>
+        <p style="font-family: Arial, Helvetica, sans-serif; color: green;">
+            You can contact me at +254740636380
+            Or reach me at<a href="https://github.com">https://github.com/Kim16458</a>
+        </p>
+    </body>
+
+</head>
+</html>
